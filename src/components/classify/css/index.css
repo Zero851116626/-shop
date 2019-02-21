@@ -1,0 +1,24 @@
+.classify {
+  width: 100%;
+  height: 3.17rem;
+}
+.classify .class-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.classify .class-list li {
+  width: 20%;
+  height: 50%;
+}
+.classify .class-list li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.classify .class-list li a img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=index.css.map */

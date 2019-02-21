@@ -1,0 +1,15 @@
+.pay {
+  width: 100%;
+  position: relative;
+}
+.pay p {
+  width: 100%;
+  font-size: 0.5rem;
+  text-align: center;
+}
+.pay img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/*# sourceMappingURL=index.css.map */

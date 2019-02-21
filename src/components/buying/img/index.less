@@ -1,0 +1,158 @@
+.basket{
+  position: relative;
+  width:100%;
+  height:13.34rem;
+  .top{
+    position: sticky;
+    top:0;
+    left:0;
+    width:100%;
+    height:1rem;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.32rem;
+    .back{
+      font-size: 0.36rem;
+    }
+    span{
+      font-size: 0.32rem;
+    }
+    .search{
+      font-size: 0.36rem;
+    }
+  }
+  .shoplist{
+    width:100%;
+    .list{
+      width:100%;
+      height:2.4rem;
+      padding-left: 0.1rem;
+      border-bottom: 0.01rem solid #f2f2f2;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      input{
+        display: block;
+        width:0.44rem;
+        height:0.44rem;
+      }
+      img{
+        width:1.86rem;
+        height:1.86rem;
+        margin:0.01rem;
+        border: 0.02rem solid #f2f2f2;
+      }
+      .info{
+        width:4.75rem;
+        height:1.85rem;
+        display: flex;
+        flex-wrap: wrap;
+        a{
+          p{
+            width:3.52rem;
+            font-size: 0.28rem;
+            color:#666;
+          }
+        }
+
+        span{
+          font-size: 0.24rem;
+        }
+        .number{
+          width:100%;
+          height:0.68rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding-right: 0.28rem;
+          .num-deal{
+            width:1.90rem;
+            height:100%;
+            span{
+              display: block;
+              float:left;
+              width:0.63rem;
+              height:100%;
+            }
+            .sub{
+              background: url("../img/3.png") no-repeat 50% 50% ;
+              background-size: 0.34rem;
+            }
+            .show{
+              line-height: 0.68rem;
+              text-align: center;
+              font-size: 0.34rem;
+            }
+            .add{
+              background-image: url("../img/2.png") ;
+              background-repeat: no-repeat;
+              background-size: 0.34rem;
+              background-position: 50% 50%;
+            }
+
+          }
+          .remove{
+            font-size: 0.44rem;
+          }
+        }
+
+      }
+    }
+  }
+  .bottom{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:1.04rem;
+    display: flex;
+    justify-content:space-between;
+    .total{
+      width:33%;
+      height:100%;
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      justify-content:space-around;
+      font-size: 0.3rem;
+      >div{
+        span{
+          height:0.4rem;
+        }
+        .total-num{
+          display: block;
+        }
+        .price{
+          font-size: 0.38rem;
+          color:#ff5722;
+        }
+      }
+
+
+    }
+    .buymore{
+      width:33.3%;
+      a{
+        display: block;
+        line-height: 1.04rem;
+        text-align: center;
+        font-size: 0.28rem;
+        background-color: #f4f4f4;
+      }
+    }
+    .pay{
+      width:33.3%;
+      a{
+        display: block;
+        line-height: 1.04rem;
+        text-align: center;
+        font-size: 0.28rem;
+        color: #FFF;
+        background-color: #ff6700;
+      }
+
+    }
+  }
+}
